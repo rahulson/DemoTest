@@ -9,7 +9,6 @@
 #import "OCRequest.h"
 
 #import "OCRequestManager.h"
-#import "DeviceRequestManager.h"
 #import "AccountManager.h"
 #import "LOAccount.h"
 #import "URLSchemea.h"
@@ -70,7 +69,7 @@
             }];
 
             }else if (_methodType == POST){
-            [[[DeviceRequestManager Instance] requestManager] POST:_urlPart parameters:_postParameters success:^void(NSURLSessionDataTask * task, id responseObject) {
+            [[[OCRequestManager Instance] requestManager] POST:_urlPart parameters:_postParameters success:^void(NSURLSessionDataTask * task, id responseObject) {
                 _responseData = responseObject;
                 NSHTTPURLResponse* r = (NSHTTPURLResponse*)task.response;
                 self.StatusCode = r.statusCode;

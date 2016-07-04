@@ -16,7 +16,6 @@
 		847F217C1D2AD2E4001CC565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847F217A1D2AD2E4001CC565 /* LaunchScreen.storyboard */; };
 		847F2A6E1D2AD73D001CC565 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2A611D2AD73D001CC565 /* AccountManager.m */; };
 		847F2A6F1D2AD73D001CC565 /* LOAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2A631D2AD73D001CC565 /* LOAccount.m */; };
-		847F2A701D2AD73D001CC565 /* DeviceRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2A661D2AD73D001CC565 /* DeviceRequestManager.m */; };
 		847F2A711D2AD73D001CC565 /* OCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2A681D2AD73D001CC565 /* OCRequest.m */; };
 		847F2A721D2AD73D001CC565 /* OCRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2A6B1D2AD73D001CC565 /* OCRequestManager.m */; };
 		847F2A861D2AD8AA001CC565 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2A761D2AD8AA001CC565 /* SVIndefiniteAnimatedView.m */; };
@@ -35,6 +34,8 @@
 		847F2AAB1D2ADAE6001CC565 /* NSString+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2AA61D2ADAE5001CC565 /* NSString+Extended.m */; };
 		847F2AAC1D2ADAE6001CC565 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2AA81D2ADAE5001CC565 /* NSString+MD5Addition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		847F2AAD1D2ADAE6001CC565 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2AAA1D2ADAE5001CC565 /* UIDevice+IdentifierAddition.m */; };
+		847F2AB21D2ADC72001CC565 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2AAF1D2ADC72001CC565 /* NSDate+Extension.m */; };
+		847F2AB31D2ADC72001CC565 /* NSManagedObject+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2AB11D2ADC72001CC565 /* NSManagedObject+Mapping.m */; };
 		9238FD56261BDEBD9A446708 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A138470C2E40D73BB59E1D42 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,8 +56,6 @@
 		847F2A611D2AD73D001CC565 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
 		847F2A621D2AD73D001CC565 /* LOAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOAccount.h; sourceTree = "<group>"; };
 		847F2A631D2AD73D001CC565 /* LOAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOAccount.m; sourceTree = "<group>"; };
-		847F2A651D2AD73D001CC565 /* DeviceRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceRequestManager.h; sourceTree = "<group>"; };
-		847F2A661D2AD73D001CC565 /* DeviceRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceRequestManager.m; sourceTree = "<group>"; };
 		847F2A671D2AD73D001CC565 /* OCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCRequest.h; sourceTree = "<group>"; };
 		847F2A681D2AD73D001CC565 /* OCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCRequest.m; sourceTree = "<group>"; };
 		847F2A691D2AD73D001CC565 /* OCRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCRequestDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +97,10 @@
 		847F2AA81D2ADAE5001CC565 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
 		847F2AA91D2ADAE5001CC565 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
 		847F2AAA1D2ADAE5001CC565 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		847F2AAE1D2ADC72001CC565 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		847F2AAF1D2ADC72001CC565 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		847F2AB01D2ADC72001CC565 /* NSManagedObject+Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Mapping.h"; sourceTree = "<group>"; };
+		847F2AB11D2ADC72001CC565 /* NSManagedObject+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Mapping.m"; sourceTree = "<group>"; };
 		933640F021BCF6EA30DFE2BC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A138470C2E40D73BB59E1D42 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB616CFEA93BEE2F2DB3C046 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -219,8 +222,6 @@
 		847F2A641D2AD73D001CC565 /* CommonRequest */ = {
 			isa = PBXGroup;
 			children = (
-				847F2A651D2AD73D001CC565 /* DeviceRequestManager.h */,
-				847F2A661D2AD73D001CC565 /* DeviceRequestManager.m */,
 				847F2A671D2AD73D001CC565 /* OCRequest.h */,
 				847F2A681D2AD73D001CC565 /* OCRequest.m */,
 				847F2A691D2AD73D001CC565 /* OCRequestDelegate.h */,
@@ -273,6 +274,10 @@
 		847F2A8E1D2AD901001CC565 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				847F2AAE1D2ADC72001CC565 /* NSDate+Extension.h */,
+				847F2AAF1D2ADC72001CC565 /* NSDate+Extension.m */,
+				847F2AB01D2ADC72001CC565 /* NSManagedObject+Mapping.h */,
+				847F2AB11D2ADC72001CC565 /* NSManagedObject+Mapping.m */,
 				847F2AA51D2ADAE5001CC565 /* NSString+Extended.h */,
 				847F2AA61D2ADAE5001CC565 /* NSString+Extended.m */,
 				847F2AA71D2ADAE5001CC565 /* NSString+MD5Addition.h */,
@@ -437,6 +442,7 @@
 				847F2AA41D2ADA79001CC565 /* DateUtiity.m in Sources */,
 				847F2A711D2AD73D001CC565 /* OCRequest.m in Sources */,
 				847F2AAD1D2ADAE6001CC565 /* UIDevice+IdentifierAddition.m in Sources */,
+				847F2AB31D2ADC72001CC565 /* NSManagedObject+Mapping.m in Sources */,
 				847F2A6E1D2AD73D001CC565 /* AccountManager.m in Sources */,
 				847F216E1D2AD2E4001CC565 /* AppDelegate.m in Sources */,
 				847F21771D2AD2E4001CC565 /* Demo.xcdatamodeld in Sources */,
@@ -449,9 +455,9 @@
 				847F2A9B1D2AD964001CC565 /* Reachability.m in Sources */,
 				847F2A8B1D2AD8AA001CC565 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				847F2A891D2AD8AA001CC565 /* SVRadialGradientLayer.m in Sources */,
+				847F2AB21D2ADC72001CC565 /* NSDate+Extension.m in Sources */,
 				847F2AAB1D2ADAE6001CC565 /* NSString+Extended.m in Sources */,
 				847F216B1D2AD2E4001CC565 /* main.m in Sources */,
-				847F2A701D2AD73D001CC565 /* DeviceRequestManager.m in Sources */,
 				847F2A881D2AD8AA001CC565 /* SVProgressHUD.m in Sources */,
 				847F2A8D1D2AD8AA001CC565 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				847F2A8A1D2AD8AA001CC565 /* TPKeyboardAvoidingCollectionView.m in Sources */,
