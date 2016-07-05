@@ -36,6 +36,9 @@
 		847F2AAD1D2ADAE6001CC565 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2AAA1D2ADAE5001CC565 /* UIDevice+IdentifierAddition.m */; };
 		847F2AB21D2ADC72001CC565 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2AAF1D2ADC72001CC565 /* NSDate+Extension.m */; };
 		847F2AB31D2ADC72001CC565 /* NSManagedObject+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2AB11D2ADC72001CC565 /* NSManagedObject+Mapping.m */; };
+		84AEA0EB1D2C37530073A6C2 /* URLImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA0E41D2C37530073A6C2 /* URLImageCache.m */; };
+		84AEA0EC1D2C37530073A6C2 /* URLImageReqeust.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA0E71D2C37530073A6C2 /* URLImageReqeust.m */; };
+		84AEA0ED1D2C37530073A6C2 /* URLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA0EA1D2C37530073A6C2 /* URLImageView.m */; };
 		9238FD56261BDEBD9A446708 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A138470C2E40D73BB59E1D42 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +104,14 @@
 		847F2AAF1D2ADC72001CC565 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		847F2AB01D2ADC72001CC565 /* NSManagedObject+Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Mapping.h"; sourceTree = "<group>"; };
 		847F2AB11D2ADC72001CC565 /* NSManagedObject+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Mapping.m"; sourceTree = "<group>"; };
+		84AEA0E31D2C37530073A6C2 /* URLImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLImageCache.h; sourceTree = "<group>"; };
+		84AEA0E41D2C37530073A6C2 /* URLImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLImageCache.m; sourceTree = "<group>"; };
+		84AEA0E51D2C37530073A6C2 /* URLImageCacheListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLImageCacheListener.h; sourceTree = "<group>"; };
+		84AEA0E61D2C37530073A6C2 /* URLImageReqeust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLImageReqeust.h; sourceTree = "<group>"; };
+		84AEA0E71D2C37530073A6C2 /* URLImageReqeust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLImageReqeust.m; sourceTree = "<group>"; };
+		84AEA0E81D2C37530073A6C2 /* URLImageRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLImageRequestDelegate.h; sourceTree = "<group>"; };
+		84AEA0E91D2C37530073A6C2 /* URLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLImageView.h; sourceTree = "<group>"; };
+		84AEA0EA1D2C37530073A6C2 /* URLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLImageView.m; sourceTree = "<group>"; };
 		933640F021BCF6EA30DFE2BC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A138470C2E40D73BB59E1D42 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB616CFEA93BEE2F2DB3C046 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -235,6 +246,7 @@
 		847F2A731D2AD878001CC565 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				84AEA0E21D2C37530073A6C2 /* URLImageView */,
 				847F2A741D2AD8AA001CC565 /* SVProgressHUD */,
 				847F2A7D1D2AD8AA001CC565 /* TPKeyboardAvoiding */,
 			);
@@ -314,6 +326,21 @@
 				847F2A991D2AD964001CC565 /* Reachability.m */,
 			);
 			path = Reachability;
+			sourceTree = "<group>";
+		};
+		84AEA0E21D2C37530073A6C2 /* URLImageView */ = {
+			isa = PBXGroup;
+			children = (
+				84AEA0E31D2C37530073A6C2 /* URLImageCache.h */,
+				84AEA0E41D2C37530073A6C2 /* URLImageCache.m */,
+				84AEA0E51D2C37530073A6C2 /* URLImageCacheListener.h */,
+				84AEA0E61D2C37530073A6C2 /* URLImageReqeust.h */,
+				84AEA0E71D2C37530073A6C2 /* URLImageReqeust.m */,
+				84AEA0E81D2C37530073A6C2 /* URLImageRequestDelegate.h */,
+				84AEA0E91D2C37530073A6C2 /* URLImageView.h */,
+				84AEA0EA1D2C37530073A6C2 /* URLImageView.m */,
+			);
+			path = URLImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,6 +467,7 @@
 			files = (
 				847F21711D2AD2E4001CC565 /* ViewController.m in Sources */,
 				847F2AA41D2ADA79001CC565 /* DateUtiity.m in Sources */,
+				84AEA0ED1D2C37530073A6C2 /* URLImageView.m in Sources */,
 				847F2A711D2AD73D001CC565 /* OCRequest.m in Sources */,
 				847F2AAD1D2ADAE6001CC565 /* UIDevice+IdentifierAddition.m in Sources */,
 				847F2AB31D2ADC72001CC565 /* NSManagedObject+Mapping.m in Sources */,
@@ -452,6 +480,7 @@
 				847F2A8C1D2AD8AA001CC565 /* TPKeyboardAvoidingTableView.m in Sources */,
 				847F2AA31D2ADA79001CC565 /* DataUtility.m in Sources */,
 				847F2A6F1D2AD73D001CC565 /* LOAccount.m in Sources */,
+				84AEA0EC1D2C37530073A6C2 /* URLImageReqeust.m in Sources */,
 				847F2A9B1D2AD964001CC565 /* Reachability.m in Sources */,
 				847F2A8B1D2AD8AA001CC565 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				847F2A891D2AD8AA001CC565 /* SVRadialGradientLayer.m in Sources */,
@@ -462,6 +491,7 @@
 				847F2A8D1D2AD8AA001CC565 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				847F2A8A1D2AD8AA001CC565 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				847F2AAC1D2ADAE6001CC565 /* NSString+MD5Addition.m in Sources */,
+				84AEA0EB1D2C37530073A6C2 /* URLImageCache.m in Sources */,
 				847F2A721D2AD73D001CC565 /* OCRequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
